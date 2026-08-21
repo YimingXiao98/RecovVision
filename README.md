@@ -1,7 +1,8 @@
 # Recov-Vision — reproducibility release
 
 Code and per-parcel data to reproduce the results in *Recov-Vision: Linking
-Street View Imagery and Vision-Language Models for Post-Disaster Recovery*.
+Street View Imagery and Vision-Language Models for Post-Disaster Recovery*,
+accepted at the *International Journal of Disaster Risk Reduction (IJDRR)*.
 
 The pipeline links panoramic street-view video to parcels, rectifies each view
 to a facade, extracts nine boolean attributes with a vision-language model, and
@@ -149,3 +150,19 @@ Section 4.3 and quantified in Figure 12 (`vehicle_presence`).
 
 Set keys via environment variables or a local `.env` (git-ignored). Do not commit
 keys. If a key was ever exposed, rotate it at the provider console.
+
+## Citation
+
+If you use this code or data, please cite:
+
+```bibtex
+@misc{xiao2026recovvisionlinkingstreetview,
+      title={Recov-Vision: Linking Street View Imagery and Vision-Language Models for Post-Disaster Recovery},
+      author={Yiming Xiao and Archit Gupta and Miguel Esparza and Yu-Hsuan Ho and Antonia Sebastian and Hannah Weas and Rose Houck and Ali Mostafavi},
+      year={2026},
+      eprint={2509.20628},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2509.20628},
+}
+```
