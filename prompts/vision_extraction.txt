@@ -1,0 +1,16 @@
+# Vision attribute-extraction prompt (Appendix Listing 1, canonical 9-key schema)
+# System message: "You output only strict JSON."
+
+Analyze the image and answer with a JSON object using EXACTLY these keys and boolean values (true/false). Do not add, remove, or rename keys. Return only the JSON object, no prose.
+
+{
+  "house_destruction": true/false,
+  "structural_damage": true/false,
+  "exterior_debris": true/false,
+  "open_doors_windows": true/false,
+  "site_accessible": true/false,
+  "exterior_mud": true/false,
+  "emergency_markings": true/false,
+  "major_repairs": true/false,
+  "vehicle_presence": true/false
+}

@@ -1,0 +1,24 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+# Downloaded imagery (pull from HuggingFace; see data/FacadeTrack/README.md)
+data/FacadeTrack/Visit1_processed_images/
+data/FacadeTrack/Visit2_processed_images/
+
+# Generated figures / run outputs
+Data_figures/occupancy_figures/*.png
+building_occupancy_result/
+frames_output/
+frames_dewarped/
+
+# OS
+.DS_Store

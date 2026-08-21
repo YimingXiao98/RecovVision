@@ -1,0 +1,492 @@
+visit1_objectid,june25_objectid,visit1_lon,visit1_lat,june25_lon,june25_lat,Visit1_Ground_Truth,June25_Ground_Truth,Visit1_Pred_LLM,June25_Pred_LLM,Visit1_Pred_wo_LLM,June25_Pred_wo_LLM,Ground_Truth_Changed,LLM_Pred_Changed,wo_LLM_Pred_Changed
+443.jpg,443.jpg,-82.39092863,35.601153492810404,-82.39092863,35.601153492810404,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+443.jpg,443.jpg,-82.39092863,35.601153492810404,-82.39092863,35.601153492810404,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+527.jpg,527.jpg,-82.37780447,35.60513753556246,-82.37780447,35.60513753556246,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+575.jpg,575.jpg,-82.31743094,35.61865737773906,-82.31743094,35.61865737773906,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,True,True,True
+1069.jpg,1069.jpg,-82.40697509,35.60309011,-82.40697509,35.60309011,Not Occupied,Not Occupied,Not Occupied,Occupied,Not Occupied,Occupied,False,True,True
+1403.jpg,1403.jpg,-82.42896475,35.61725129,-82.42896475,35.61725129,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+2441.jpg,2441.jpg,-82.31682943,35.626407819926435,-82.31682943,35.626407819926435,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+2519.jpg,2519.jpg,-82.31663727,35.61912914447803,-82.31663727,35.61912914447803,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+2798.jpg,2798.jpg,-82.37828382,35.60555479568976,-82.37828382,35.60555479568976,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+3316.jpg,3316.jpg,-82.37858327,35.60637237676888,-82.37858327,35.60637237676888,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+3374.jpg,3374.jpg,-82.39458699,35.60121172837775,-82.39458699,35.60121172837775,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+3374.jpg,3374.jpg,-82.39458699,35.60121172837775,-82.39458699,35.60121172837775,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+3431.jpg,3431.jpg,-82.31706373,35.61906461063195,-82.31706373,35.61906461063195,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+3700.jpg,3700.jpg,-82.31792967,35.61795518982011,-82.31792967,35.61795518982011,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+4079.jpg,4079.jpg,-82.39407019,35.60242955090438,-82.39407019,35.60242955090438,Not Occupied,Occupied,Occupied,Not Occupied,Occupied,Not Occupied,True,True,True
+4533.jpg,4533.jpg,-82.40128289,35.60042569296819,-82.40128289,35.60042569296819,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+5069.jpg,5069.jpg,-82.3953291,35.602655371825826,-82.3953291,35.602655371825826,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+5069.jpg,5069.jpg,-82.3953291,35.602655371825826,-82.3953291,35.602655371825826,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+5173.jpg,5173.jpg,-82.4004294,35.600048327110706,-82.4004294,35.600048327110706,Not Occupied,Occupied,Not Occupied,Occupied,Occupied,Occupied,True,True,False
+5286.jpg,5286.jpg,-82.3907445,35.599659637968195,-82.3907445,35.599659637968195,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+5518.jpg,5518.jpg,-82.40732582,35.60147895640248,-82.40732582,35.60147895640248,Not Occupied,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+5530.jpg,5530.jpg,-82.40342737,35.60224548243951,-82.40342737,35.60224548243951,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+6173.jpg,6173.jpg,-82.39512102,35.601930482932055,-82.39512102,35.601930482932055,Occupied,Unknown,Occupied,Not Occupied,Occupied,Not Occupied,True,True,True
+6225.jpg,6225.jpg,-82.39390497,35.60233733773265,-82.39390497,35.60233733773265,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,False,False,False
+6671.jpg,6671.jpg,-82.31740318,35.624644987795975,-82.31740318,35.624644987795975,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+6671.jpg,6671.jpg,-82.31740318,35.624644987795975,-82.31740318,35.624644987795975,Not Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+7190.jpg,7190.jpg,-82.31880931,35.62646878219067,-82.31880931,35.62646878219067,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+7799.jpg,7799.jpg,-82.39882015,35.60091412897339,-82.39882015,35.60091412897339,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,False,False,False
+8885.jpg,8885.jpg,-82.31469815,35.625734651194165,-82.31469815,35.625734651194165,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+9388.jpg,9388.jpg,-82.42859499,35.61780733771165,-82.42859499,35.61780733771165,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+10312.jpg,10312.jpg,-82.39188953,35.60056045732012,-82.39188953,35.60056045732012,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+10643.jpg,10643.jpg,-82.40127245,35.600284309553125,-82.40127245,35.600284309553125,Not Occupied,Not Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+10675.jpg,10675.jpg,-82.39137703,35.600606165014604,-82.39137703,35.600606165014604,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+12103.jpg,12103.jpg,-82.31789922,35.624615723280726,-82.31789922,35.624615723280726,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+12103.jpg,12103.jpg,-82.31789922,35.624615723280726,-82.31789922,35.624615723280726,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+12928.jpg,12928.jpg,-82.31525557,35.62703216041788,-82.31525557,35.62703216041788,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+13237.jpg,13237.jpg,-82.40568641,35.603547046141216,-82.40568641,35.603547046141216,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+13311.jpg,13311.jpg,-82.3775665,35.60451939123023,-82.3775665,35.60451939123023,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+13702.jpg,13702.jpg,-82.40072142,35.59912533687466,-82.40072142,35.59912533687466,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+13848.jpg,13848.jpg,-82.42852808,35.61752773564076,-82.42852808,35.61752773564076,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+14315.jpg,14315.jpg,-82.3916092,35.60105770959479,-82.3916092,35.60105770959479,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+14315.jpg,14315.jpg,-82.3916092,35.60105770959479,-82.3916092,35.60105770959479,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+14859.jpg,14859.jpg,-82.37751749,35.60440719118068,-82.37751749,35.60440719118068,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+14986.jpg,14986.jpg,-82.40044975,35.60036637022063,-82.40044975,35.60036637022063,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Occupied,False,False,True
+15609.jpg,15609.jpg,-82.37802676,35.60597837185784,-82.37802676,35.60597837185784,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+17151.jpg,17151.jpg,-82.42926189,35.61885932995322,-82.42926189,35.61885932995322,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+17773.jpg,17773.jpg,-82.39840996,35.60101547995369,-82.39840996,35.60101547995369,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+17816.jpg,17816.jpg,-82.4013191,35.60199540505324,-82.4013191,35.60199540505324,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+17816.jpg,17816.jpg,-82.4013191,35.60199540505324,-82.4013191,35.60199540505324,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+18111.jpg,18111.jpg,-82.39738702,35.60050635552669,-82.39738702,35.60050635552669,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+18609.jpg,18609.jpg,-82.39118529,35.60247036329948,-82.39118529,35.60247036329948,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+18610.jpg,18610.jpg,-82.3925666,35.60090869,-82.3925666,35.60090869,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+18610.jpg,18610.jpg,-82.3925666,35.60090869,-82.3925666,35.60090869,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+18909.jpg,18909.jpg,-82.3170455,35.61839347090053,-82.3170455,35.61839347090053,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+19224.jpg,19224.jpg,-82.4076323,35.60311703751471,-82.4076323,35.60311703751471,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+19482.jpg,19482.jpg,-82.39297966,35.60201840866454,-82.39297966,35.60201840866454,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,False,False,False
+20326.jpg,20326.jpg,-82.38954592,35.60093021670098,-82.38954592,35.60093021670098,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+20845.jpg,20845.jpg,-82.39478047,35.60239077300143,-82.39478047,35.60239077300143,Not Occupied,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+20899.jpg,20899.jpg,-82.39952489,35.59880712469273,-82.39952489,35.59880712469273,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+21916.jpg,21916.jpg,-82.3158569,35.62481169525431,-82.3158569,35.62481169525431,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+22554.jpg,22554.jpg,-82.38655854,35.60414548321409,-82.38655854,35.60414548321409,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+22887.jpg,22887.jpg,-82.3929681,35.60123183,-82.3929681,35.60123183,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+22887.jpg,22887.jpg,-82.3929681,35.60123183,-82.3929681,35.60123183,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+23585.jpg,23585.jpg,-82.37899836,35.60688534028662,-82.37899836,35.60688534028662,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+23775.jpg,23775.jpg,-82.39475682,35.60267998503761,-82.39475682,35.60267998503761,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+23775.jpg,23775.jpg,-82.39475682,35.60267998503761,-82.39475682,35.60267998503761,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+24267.jpg,24267.jpg,-82.39224917,35.60079721365586,-82.39224917,35.60079721365586,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+24883.jpg,24883.jpg,-82.31769886,35.62395715487172,-82.31769886,35.62395715487172,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,False,False,False
+25130.jpg,25130.jpg,-82.42374708,35.61539890225489,-82.42374708,35.61539890225489,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+26117.jpg,26117.jpg,-82.31780758,35.62951354,-82.31780758,35.62951354,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+26421.jpg,26421.jpg,-82.31513681,35.62681258992734,-82.31513681,35.62681258992734,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+26934.jpg,26934.jpg,-82.31685872,35.62985088773003,-82.31685872,35.62985088773003,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+27980.jpg,27980.jpg,-82.39859429,35.60142278112049,-82.39859429,35.60142278112049,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,False,False,False
+28406.jpg,28406.jpg,-82.39499331,35.60121344716309,-82.39499331,35.60121344716309,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+28406.jpg,28406.jpg,-82.39499331,35.60121344716309,-82.39499331,35.60121344716309,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+28632.jpg,28632.jpg,-82.37791067,35.60444221560584,-82.37791067,35.60444221560584,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+29061.jpg,29061.jpg,-82.42915466,35.61892306883628,-82.42915466,35.61892306883628,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+29611.jpg,29611.jpg,-82.4281269,35.61779621803648,-82.4281269,35.61779621803648,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+31044.jpg,31044.jpg,-82.31752676,35.627888051848856,-82.31752676,35.627888051848856,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+31338.jpg,31338.jpg,-82.42360174,35.614257433054924,-82.42360174,35.614257433054924,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+31569.jpg,31569.jpg,-82.39162639,35.600268209532466,-82.39162639,35.600268209532466,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+31629.jpg,31629.jpg,-82.31611887,35.623838390776605,-82.31611887,35.623838390776605,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+31726.jpg,31726.jpg,-82.31593843,35.62381492363166,-82.31593843,35.62381492363166,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+32176.jpg,32176.jpg,-82.39502566,35.60177578417694,-82.39502566,35.60177578417694,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+32932.jpg,32932.jpg,-82.40763265,35.603429564044326,-82.40763265,35.603429564044326,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+33312.jpg,33312.jpg,-82.31719305,35.627218630606976,-82.31719305,35.627218630606976,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+33904.jpg,33904.jpg,-82.31785937,35.62434857155408,-82.31785937,35.62434857155408,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+34235.jpg,34235.jpg,-82.40899326,35.60023125812438,-82.40899326,35.60023125812438,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+35118.jpg,35118.jpg,-82.40013081,35.59971283872159,-82.40013081,35.59971283872159,Occupied,Unknown,Occupied,Occupied,Not Occupied,Occupied,True,False,True
+35551.jpg,35551.jpg,-82.4283609,35.61794790009617,-82.4283609,35.61794790009617,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+36098.jpg,36098.jpg,-82.39478821,35.60120133229407,-82.39478821,35.60120133229407,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+36098.jpg,36098.jpg,-82.39478821,35.60120133229407,-82.39478821,35.60120133229407,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+36312.jpg,36312.jpg,-82.31481532,35.62365501860808,-82.31481532,35.62365501860808,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+37270.jpg,37270.jpg,-82.37824494,35.60542983370551,-82.37824494,35.60542983370551,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+37354.jpg,37354.jpg,-82.3174742,35.618026285305255,-82.3174742,35.618026285305255,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+37769.jpg,37769.jpg,-82.39397932,35.60121008705428,-82.39397932,35.60121008705428,Not Occupied,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+37769.jpg,37769.jpg,-82.39397932,35.60121008705428,-82.39397932,35.60121008705428,Not Occupied,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+38281.jpg,38281.jpg,-82.40012121,35.59899009616153,-82.40012121,35.59899009616153,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+38648.jpg,38648.jpg,-82.37816096,35.60645334211534,-82.37816096,35.60645334211534,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+38666.jpg,38666.jpg,-82.31844903,35.62627499229243,-82.31844903,35.62627499229243,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+38960.jpg,38960.jpg,-82.39800713,35.60158199768961,-82.39800713,35.60158199768961,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+39009.jpg,39009.jpg,-82.39502609,35.60237227,-82.39502609,35.60237227,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+39604.jpg,39604.jpg,-82.31825797,35.62785867260939,-82.31825797,35.62785867260939,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+39718.jpg,39718.jpg,-82.39908755,35.60010785880627,-82.39908755,35.60010785880627,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+40016.jpg,40016.jpg,-82.42885008,35.61768218517247,-82.42885008,35.61768218517247,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+41638.jpg,41638.jpg,-82.39895025,35.601188358892564,-82.39895025,35.601188358892564,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,True,True,True
+42521.jpg,42521.jpg,-82.42374938,35.61894948589138,-82.42374938,35.61894948589138,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+42639.jpg,42639.jpg,-82.38420365,35.599226257551855,-82.38420365,35.599226257551855,Not Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+43437.jpg,43437.jpg,-82.39970925,35.59874287034509,-82.39970925,35.59874287034509,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+43527.jpg,43527.jpg,-82.31661752,35.629454445163354,-82.31661752,35.629454445163354,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+43825.jpg,43825.jpg,-82.37804035,35.60481472398134,-82.37804035,35.60481472398134,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+43875.jpg,43875.jpg,-82.39994883,35.59834011153823,-82.39994883,35.59834011153823,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+44262.jpg,44262.jpg,-82.42903203,35.61956038936097,-82.42903203,35.61956038936097,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+44510.jpg,44510.jpg,-82.39101816,35.602725350211536,-82.39101816,35.602725350211536,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+45548.jpg,45548.jpg,-82.39543392,35.601749748427665,-82.39543392,35.601749748427665,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+46904.jpg,46904.jpg,-82.38831791,35.60398983853555,-82.38831791,35.60398983853555,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,Occupied,True,True,False
+47001.jpg,47001.jpg,-82.37765347,35.60371256189304,-82.37765347,35.60371256189304,Occupied,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,True,True,True
+47082.jpg,47082.jpg,-82.40655849,35.60336310899277,-82.40655849,35.60336310899277,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,False,False,False
+47165.jpg,47165.jpg,-82.40049081,35.59962535360827,-82.40049081,35.59962535360827,Not Occupied,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+47644.jpg,47644.jpg,-82.39047904,35.59970402,-82.39047904,35.59970402,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+48058.jpg,48058.jpg,-82.31765799,35.62527446616258,-82.31765799,35.62527446616258,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+48058.jpg,48058.jpg,-82.31765799,35.62527446616258,-82.31765799,35.62527446616258,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+49580.jpg,49580.jpg,-82.38377314,35.59913798071881,-82.38377314,35.59913798071881,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+49745.jpg,49745.jpg,-82.31631785,35.62431951068352,-82.31631785,35.62431951068352,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+50524.jpg,50524.jpg,-82.31644841,35.62384018376621,-82.31644841,35.62384018376621,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+50953.jpg,50953.jpg,-82.42876114,35.61979912392307,-82.42876114,35.61979912392307,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+51035.jpg,51035.jpg,-82.39875493,35.59941108877166,-82.39875493,35.59941108877166,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+51037.jpg,51037.jpg,-82.42841541,35.61668005848359,-82.42841541,35.61668005848359,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+52050.jpg,52050.jpg,-82.31661205,35.62382773416682,-82.31661205,35.62382773416682,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+52087.jpg,52087.jpg,-82.31718013,35.627384400704926,-82.31718013,35.627384400704926,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+52945.jpg,52945.jpg,-82.39160373,35.602853643499984,-82.39160373,35.602853643499984,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+53426.jpg,53426.jpg,-82.40065161,35.599732479273946,-82.40065161,35.599732479273946,Not Occupied,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+53497.jpg,53497.jpg,-82.39920558,35.59891275084393,-82.39920558,35.59891275084393,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+53922.jpg,53922.jpg,-82.37847671,35.60616178025773,-82.37847671,35.60616178025773,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+54023.jpg,54023.jpg,-82.3167102,35.62735552,-82.3167102,35.62735552,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+54217.jpg,54217.jpg,-82.31753289,35.62771143,-82.31753289,35.62771143,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+54598.jpg,54598.jpg,-82.40017708,35.599384320510694,-82.40017708,35.599384320510694,Not Occupied,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+55160.jpg,55160.jpg,-82.39264887,35.60309392301042,-82.39264887,35.60309392301042,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+55613.jpg,55613.jpg,-82.38413033,35.60452372,-82.38413033,35.60452372,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+55779.jpg,55779.jpg,-82.37726133,35.60361971121657,-82.37726133,35.60361971121657,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+56227.jpg,56227.jpg,-82.39860918,35.60093918028158,-82.39860918,35.60093918028158,Not Occupied,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+57606.jpg,57606.jpg,-82.31834726,35.627109820016074,-82.31834726,35.627109820016074,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+58037.jpg,58037.jpg,-82.31803684,35.62823022293549,-82.31803684,35.62823022293549,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+58885.jpg,58885.jpg,-82.31756156,35.62951144264451,-82.31756156,35.62951144264451,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+59495.jpg,59495.jpg,-82.31727147,35.629498285666784,-82.31727147,35.629498285666784,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+59535.jpg,59535.jpg,-82.31673524,35.62718159421591,-82.31673524,35.62718159421591,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+59590.jpg,59590.jpg,-82.39059555,35.60121724785265,-82.39059555,35.60121724785265,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+59590.jpg,59590.jpg,-82.39059555,35.60121724785265,-82.39059555,35.60121724785265,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+60214.jpg,60214.jpg,-82.39233108,35.603011415508824,-82.39233108,35.603011415508824,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+60529.jpg,60529.jpg,-82.42905953,35.61853483233524,-82.42905953,35.61853483233524,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+61514.jpg,61514.jpg,-82.38695997,35.60394755697134,-82.38695997,35.60394755697134,Not Occupied,Not Occupied,Not Occupied,Occupied,Not Occupied,Occupied,False,True,True
+62177.jpg,62177.jpg,-82.39980901,35.59807883122126,-82.39980901,35.59807883122126,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+62597.jpg,62597.jpg,-82.42321568,35.616276703073375,-82.42321568,35.616276703073375,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+63346.jpg,63346.jpg,-82.40604925,35.60366114270428,-82.40604925,35.60366114270428,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+63786.jpg,63786.jpg,-82.42785092,35.61733625,-82.42785092,35.61733625,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+64088.jpg,64088.jpg,-82.40111055,35.60200365421916,-82.40111055,35.60200365421916,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+64088.jpg,64088.jpg,-82.40111055,35.60200365421916,-82.40111055,35.60200365421916,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+64480.jpg,64480.jpg,-82.39754279,35.60085577932448,-82.39754279,35.60085577932448,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+64556.jpg,64556.jpg,-82.37843358,35.60591645158634,-82.37843358,35.60591645158634,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+64961.jpg,64961.jpg,-82.42372213,35.61565043594367,-82.42372213,35.61565043594367,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+65674.jpg,65674.jpg,-82.39890964,35.59902277,-82.39890964,35.59902277,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+65732.jpg,65732.jpg,-82.39371705,35.60445158626839,-82.39371705,35.60445158626839,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+65842.jpg,65842.jpg,-82.42373929,35.61840216643109,-82.42373929,35.61840216643109,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+66521.jpg,66521.jpg,-82.31669467,35.62749665618999,-82.31669467,35.62749665618999,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+66856.jpg,66856.jpg,-82.39248233,35.600760805950536,-82.39248233,35.600760805950536,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+67337.jpg,67337.jpg,-82.31769134,35.628218463449706,-82.31769134,35.628218463449706,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+68790.jpg,68790.jpg,-82.39353234,35.60229904119224,-82.39353234,35.60229904119224,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+69070.jpg,69070.jpg,-82.31789382,35.627901902428555,-82.31789382,35.627901902428555,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,False,False,False
+69766.jpg,69766.jpg,-82.39918667,35.60121784717165,-82.39918667,35.60121784717165,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,True,True,True
+70138.jpg,70138.jpg,-82.31507665,35.62623826945129,-82.31507665,35.62623826945129,Unknown,Not Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+70887.jpg,70887.jpg,-82.36981487,35.60878141700074,-82.36981487,35.60878141700074,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+70932.jpg,70932.jpg,-82.39517357,35.60223893196599,-82.39517357,35.60223893196599,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,True,True,True
+72332.jpg,72332.jpg,-82.3777162,35.603921166214626,-82.3777162,35.603921166214626,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+72496.jpg,72496.jpg,-82.39173039,35.60053794396014,-82.39173039,35.60053794396014,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+72844.jpg,72844.jpg,-82.39334722,35.60231177000714,-82.39334722,35.60231177000714,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+72854.jpg,72854.jpg,-82.39487521,35.60272044862782,-82.39487521,35.60272044862782,Not Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+72854.jpg,72854.jpg,-82.39487521,35.60272044862782,-82.39487521,35.60272044862782,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+72854.jpg,72854.jpg,-82.39487521,35.60272044862782,-82.39487521,35.60272044862782,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+72941.jpg,72941.jpg,-82.31696885,35.624268990508874,-82.31696885,35.624268990508874,Not Occupied,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,False,True,True
+73458.jpg,73458.jpg,-82.39983485,35.59791340189679,-82.39983485,35.59791340189679,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+74742.jpg,74742.jpg,-82.40610056,35.60319380433854,-82.40610056,35.60319380433854,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+75637.jpg,75637.jpg,-82.38987866,35.60167601119527,-82.38987866,35.60167601119527,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+76226.jpg,76226.jpg,-82.39562758,35.60223986140627,-82.39562758,35.60223986140627,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+76504.jpg,76504.jpg,-82.39107839,35.60066569394672,-82.39107839,35.60066569394672,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+77117.jpg,77117.jpg,-82.39193172,35.60293382,-82.39193172,35.60293382,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+77342.jpg,77342.jpg,-82.31758624,35.618250816999335,-82.31758624,35.618250816999335,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+78806.jpg,78806.jpg,-82.41222916,35.599841024883425,-82.41222916,35.599841024883425,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+79175.jpg,79175.jpg,-82.37785619,35.60432004306281,-82.37785619,35.60432004306281,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+79283.jpg,79283.jpg,-82.40736482,35.60308781871751,-82.40736482,35.60308781871751,Not Occupied,Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,True,False,False
+79348.jpg,79348.jpg,-82.42889753,35.61967631851021,-82.42889753,35.61967631851021,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+79379.jpg,79379.jpg,-82.42927754,35.617870049524846,-82.42927754,35.617870049524846,Unknown,Occupied,Not Occupied,Occupied,Occupied,Occupied,True,True,False
+79822.jpg,79822.jpg,-82.39189357,35.60064619910158,-82.39189357,35.60064619910158,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+80259.jpg,80259.jpg,-82.39112785,35.604563324393176,-82.39112785,35.604563324393176,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+80774.jpg,80774.jpg,-82.39985438,35.599108497068926,-82.39985438,35.599108497068926,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+81126.jpg,81126.jpg,-82.31687378,35.62817371492761,-82.31687378,35.62817371492761,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+81237.jpg,81237.jpg,-82.31767502,35.62380879773648,-82.31767502,35.62380879773648,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+81499.jpg,81499.jpg,-82.40596483,35.604081488234684,-82.40596483,35.604081488234684,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+82347.jpg,82347.jpg,-82.39984905,35.59946115865188,-82.39984905,35.59946115865188,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+82811.jpg,82811.jpg,-82.42876853,35.61736734558729,-82.42876853,35.61736734558729,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+83073.jpg,83073.jpg,-82.39555203,35.60190105402209,-82.39555203,35.60190105402209,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+83228.jpg,83228.jpg,-82.3172438,35.624618658252274,-82.3172438,35.624618658252274,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+83270.jpg,83270.jpg,-82.38752115,35.60392029210449,-82.38752115,35.60392029210449,Not Occupied,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+83403.jpg,83403.jpg,-82.31739607,35.62819865178006,-82.31739607,35.62819865178006,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+84119.jpg,84119.jpg,-82.31569223,35.626933725236064,-82.31569223,35.626933725236064,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,True,True,True
+84405.jpg,84405.jpg,-82.40767564,35.60289718605693,-82.40767564,35.60289718605693,Unknown,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,False,True,True
+84918.jpg,84918.jpg,-82.31823298,35.62544604909092,-82.31823298,35.62544604909092,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+84918.jpg,84918.jpg,-82.31823298,35.62544604909092,-82.31823298,35.62544604909092,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+85806.jpg,85806.jpg,-82.31767818,35.61858706414274,-82.31767818,35.61858706414274,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+87018.jpg,87018.jpg,-82.39200586,35.602936411072115,-82.39200586,35.602936411072115,Unknown,Unknown,Occupied,Not Occupied,Occupied,Not Occupied,False,True,True
+87519.jpg,87519.jpg,-82.39557065,35.60243992412899,-82.39557065,35.60243992412899,Not Occupied,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+87580.jpg,87580.jpg,-82.38877381,35.60405064850705,-82.38877381,35.60405064850705,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Occupied,False,False,True
+87827.jpg,87827.jpg,-82.40025182,35.60050048832738,-82.40025182,35.60050048832738,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,True,True,True
+88094.jpg,88094.jpg,-82.42791158,35.61685577245836,-82.42791158,35.61685577245836,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+88129.jpg,88129.jpg,-82.4011992,35.601932667999826,-82.4011992,35.601932667999826,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+89134.jpg,89134.jpg,-82.39787842,35.60160178314347,-82.39787842,35.60160178314347,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+89134.jpg,89134.jpg,-82.39787842,35.60160178314347,-82.39787842,35.60160178314347,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+89498.jpg,89498.jpg,-82.31681582,35.62687143353033,-82.31681582,35.62687143353033,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+90719.jpg,90719.jpg,-82.39317486,35.60200349555925,-82.39317486,35.60200349555925,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,False,False,False
+90942.jpg,90942.jpg,-82.39965767,35.59911966291352,-82.39965767,35.59911966291352,Occupied,Unknown,Occupied,Not Occupied,Occupied,Not Occupied,True,True,True
+91124.jpg,91124.jpg,-82.42837916,35.62011625347029,-82.42837916,35.62011625347029,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+91448.jpg,91448.jpg,-82.31629512,35.62452517899611,-82.31629512,35.62452517899611,Not Occupied,Occupied,Not Occupied,Occupied,Occupied,Occupied,True,True,False
+91755.jpg,91755.jpg,-82.40026954,35.59857244844426,-82.40026954,35.59857244844426,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+92336.jpg,92336.jpg,-82.42883197,35.61806103627541,-82.42883197,35.61806103627541,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+92670.jpg,92670.jpg,-82.39883016,35.59963468679059,-82.39883016,35.59963468679059,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+93041.jpg,93041.jpg,-82.39847558,35.60061948709174,-82.39847558,35.60061948709174,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,True,True,True
+93297.jpg,93297.jpg,-82.31672427,35.61942500334758,-82.31672427,35.61942500334758,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+93678.jpg,93678.jpg,-82.39356944,35.60197741383958,-82.39356944,35.60197741383958,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,False,False,False
+93870.jpg,93870.jpg,-82.40916701,35.59987756517107,-82.40916701,35.59987756517107,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+93971.jpg,93971.jpg,-82.3925625,35.601290673121454,-82.3925625,35.601290673121454,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+93971.jpg,93971.jpg,-82.3925625,35.601290673121454,-82.3925625,35.601290673121454,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+94174.jpg,94174.jpg,-82.39456533,35.602328039427434,-82.39456533,35.602328039427434,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+94525.jpg,94525.jpg,-82.31746231,35.62487016557444,-82.31746231,35.62487016557444,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+94851.jpg,94851.jpg,-82.41189773,35.59989320895305,-82.41189773,35.59989320895305,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+95755.jpg,95755.jpg,-82.37759066,35.603553661212054,-82.37759066,35.603553661212054,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+95928.jpg,95928.jpg,-82.40545806,35.60221183,-82.40545806,35.60221183,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+96035.jpg,96035.jpg,-82.42770201,35.61717455187282,-82.42770201,35.61717455187282,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+96869.jpg,96869.jpg,-82.39487633,35.60138738808977,-82.39487633,35.60138738808977,Not Occupied,Occupied,Not Occupied,Occupied,Occupied,Occupied,True,True,False
+97558.jpg,97558.jpg,-82.42320418,35.61900640239694,-82.42320418,35.61900640239694,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+97669.jpg,97669.jpg,-82.39089834,35.60074863252849,-82.39089834,35.60074863252849,Occupied,Occupied,Occupied,Not Occupied,Occupied,Not Occupied,False,True,True
+98182.jpg,98182.jpg,-82.31732799,35.62409159901136,-82.31732799,35.62409159901136,Not Occupied,Not Occupied,Not Occupied,Occupied,Not Occupied,Occupied,False,True,True
+98218.jpg,98218.jpg,-82.37764741,35.60474392593082,-82.37764741,35.60474392593082,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+98818.jpg,98818.jpg,-82.37717036,35.60341619703524,-82.37717036,35.60341619703524,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+99549.jpg,99549.jpg,-82.42346541,35.614793017143946,-82.42346541,35.614793017143946,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+100228.jpg,100228.jpg,-82.42940421,35.61781026874951,-82.42940421,35.61781026874951,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+100553.jpg,100553.jpg,-82.40906109,35.59942028154357,-82.40906109,35.59942028154357,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+100553.jpg,100553.jpg,-82.40906109,35.59942028154357,-82.40906109,35.59942028154357,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+100598.jpg,100598.jpg,-82.37830869,35.60659101178559,-82.37830869,35.60659101178559,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+101457.jpg,101457.jpg,-82.31628142,35.62383163219124,-82.31628142,35.62383163219124,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+101850.jpg,101850.jpg,-82.4237283,35.61593012818962,-82.4237283,35.61593012818962,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+102272.jpg,102272.jpg,-82.39178048,35.59921619457824,-82.39178048,35.59921619457824,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+102634.jpg,102634.jpg,-82.39437177,35.602218049728094,-82.39437177,35.602218049728094,Not Occupied,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+104053.jpg,104053.jpg,-82.31831701,35.62748136979764,-82.31831701,35.62748136979764,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+104324.jpg,104324.jpg,-82.39965071,35.59990918054062,-82.39965071,35.59990918054062,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+104380.jpg,104380.jpg,-82.37809628,35.605022658413084,-82.37809628,35.605022658413084,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+104504.jpg,104504.jpg,-82.31794942,35.61814758255229,-82.31794942,35.61814758255229,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+105328.jpg,105328.jpg,-82.3933639,35.60122275099599,-82.3933639,35.60122275099599,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+105328.jpg,105328.jpg,-82.3933639,35.60122275099599,-82.3933639,35.60122275099599,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+107362.jpg,107362.jpg,-82.3909798,35.60041349918751,-82.3909798,35.60041349918751,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+107700.jpg,107700.jpg,-82.39222205,35.60299243822428,-82.39222205,35.60299243822428,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+108061.jpg,108061.jpg,-82.3182742,35.625796465418354,-82.3182742,35.625796465418354,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+108164.jpg,108164.jpg,-82.38379908,35.59929194173735,-82.38379908,35.59929194173735,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+109455.jpg,109455.jpg,-82.39216083,35.60090493195815,-82.39216083,35.60090493195815,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+109524.jpg,109524.jpg,-82.31719158,35.61752743093487,-82.31719158,35.61752743093487,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+109957.jpg,109957.jpg,-82.31719214,35.62782822,-82.31719214,35.62782822,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+110660.jpg,110660.jpg,-82.37815964,35.60519298386716,-82.37815964,35.60519298386716,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+110727.jpg,110727.jpg,-82.39991241,35.598057009376674,-82.39991241,35.598057009376674,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+111513.jpg,111513.jpg,-82.38868162,35.59981672918754,-82.38868162,35.59981672918754,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+112266.jpg,112266.jpg,-82.39942262,35.59987472441899,-82.39942262,35.59987472441899,Not Occupied,Not Occupied,Not Occupied,Occupied,Not Occupied,Occupied,False,True,True
+112870.jpg,112870.jpg,-82.31589049,35.624532074043394,-82.31589049,35.624532074043394,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+113030.jpg,113030.jpg,-82.38605472,35.60409615546685,-82.38605472,35.60409615546685,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+113453.jpg,113453.jpg,-82.31705515,35.61872297900712,-82.31705515,35.61872297900712,Occupied,Occupied,Occupied,Not Occupied,Occupied,Occupied,False,True,False
+113645.jpg,113645.jpg,-82.31776453,35.62405815010768,-82.31776453,35.62405815010768,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,False,False,False
+114190.jpg,114190.jpg,-82.40097921,35.59960042,-82.40097921,35.59960042,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+114206.jpg,114206.jpg,-82.31653736,35.618629939047494,-82.31653736,35.618629939047494,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+115135.jpg,115135.jpg,-82.31842781,35.62575202911286,-82.31842781,35.62575202911286,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+115320.jpg,115320.jpg,-82.31728097,35.61761394885406,-82.31728097,35.61761394885406,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+115331.jpg,115331.jpg,-82.42949719,35.617428159445566,-82.42949719,35.617428159445566,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+115342.jpg,115342.jpg,-82.3967695,35.59954399352466,-82.3967695,35.59954399352466,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+115762.jpg,115762.jpg,-82.42357153,35.61455265096559,-82.42357153,35.61455265096559,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+116005.jpg,116005.jpg,-82.31748349,35.62988867294047,-82.31748349,35.62988867294047,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+117458.jpg,117458.jpg,-82.38930231,35.60082962198508,-82.38930231,35.60082962198508,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+117750.jpg,117750.jpg,-82.31754796,35.62463060786036,-82.31754796,35.62463060786036,Not Occupied,Not Occupied,Occupied,Occupied,Not Occupied,Occupied,False,False,True
+117750.jpg,117750.jpg,-82.31754796,35.62463060786036,-82.31754796,35.62463060786036,Unknown,Not Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+118357.jpg,118357.jpg,-82.42373071,35.61813497229234,-82.42373071,35.61813497229234,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+118650.jpg,118650.jpg,-82.38455053,35.599202963472074,-82.38455053,35.599202963472074,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+118793.jpg,118793.jpg,-82.41239518,35.60010895488241,-82.41239518,35.60010895488241,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+119221.jpg,119221.jpg,-82.31788158,35.62546197623954,-82.31788158,35.62546197623954,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+119221.jpg,119221.jpg,-82.31788158,35.62546197623954,-82.31788158,35.62546197623954,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+120367.jpg,120367.jpg,-82.42373097,35.61784655593579,-82.42373097,35.61784655593579,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+120853.jpg,120853.jpg,-82.3931691,35.60232685604571,-82.3931691,35.60232685604571,Not Occupied,Not Occupied,Not Occupied,Occupied,Not Occupied,Occupied,False,True,True
+120865.jpg,120865.jpg,-82.39275208,35.60125234013311,-82.39275208,35.60125234013311,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+120865.jpg,120865.jpg,-82.39275208,35.60125234013311,-82.39275208,35.60125234013311,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+121465.jpg,121465.jpg,-82.31705485,35.62467239217294,-82.31705485,35.62467239217294,Occupied,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,True,True,True
+121550.jpg,121550.jpg,-82.31703844,35.629482586088564,-82.31703844,35.629482586088564,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+121626.jpg,121626.jpg,-82.39402911,35.60202286513162,-82.39402911,35.60202286513162,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,False,False,False
+121795.jpg,121795.jpg,-82.40032214,35.600170411484854,-82.40032214,35.600170411484854,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+122031.jpg,122031.jpg,-82.3783761,35.60577769337788,-82.3783761,35.60577769337788,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+122166.jpg,122166.jpg,-82.37738947,35.60411636641677,-82.37738947,35.60411636641677,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+122593.jpg,122593.jpg,-82.42852265,35.61709692102942,-82.42852265,35.61709692102942,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+122884.jpg,122884.jpg,-82.3992271,35.59969812062405,-82.3992271,35.59969812062405,Not Occupied,Not Occupied,Not Occupied,Occupied,Not Occupied,Not Occupied,False,True,False
+123114.jpg,123114.jpg,-82.39533935,35.601316980147736,-82.39533935,35.601316980147736,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+123432.jpg,123432.jpg,-82.38918027,35.604110220189646,-82.38918027,35.604110220189646,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Occupied,False,False,True
+123663.jpg,123663.jpg,-82.31844768,35.62601441605619,-82.31844768,35.62601441605619,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+123748.jpg,123748.jpg,-82.31677431,35.61853603,-82.31677431,35.61853603,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+124008.jpg,124008.jpg,-82.41275344,35.601008483587734,-82.41275344,35.601008483587734,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+124769.jpg,124769.jpg,-82.31592568,35.62412636016252,-82.31592568,35.62412636016252,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+124868.jpg,124868.jpg,-82.31941164,35.61665776662038,-82.31941164,35.61665776662038,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+124868.jpg,124868.jpg,-82.31941164,35.61665776662038,-82.31941164,35.61665776662038,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+125571.jpg,125571.jpg,-82.31485739,35.62664263245558,-82.31485739,35.62664263245558,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+126022.jpg,126022.jpg,-82.42907794,35.61997879937118,-82.42907794,35.61997879937118,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+126197.jpg,126197.jpg,-82.42959004,35.617543311444834,-82.42959004,35.617543311444834,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+126325.jpg,126325.jpg,-82.31714548,35.62986817011729,-82.31714548,35.62986817011729,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+126759.jpg,126759.jpg,-82.39982287,35.59984689870324,-82.39982287,35.59984689870324,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+127268.jpg,127268.jpg,-82.31530723,35.62376182947508,-82.31530723,35.62376182947508,Not Occupied,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+127914.jpg,127914.jpg,-82.40863813,35.599843507472336,-82.40863813,35.599843507472336,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+127992.jpg,127992.jpg,-82.3913062,35.600346592243234,-82.3913062,35.600346592243234,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+128156.jpg,128156.jpg,-82.31688781,35.628774404031354,-82.31688781,35.628774404031354,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+128357.jpg,128357.jpg,-82.31709303,35.61725328474271,-82.31709303,35.61725328474271,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+128395.jpg,128395.jpg,-82.37738042,35.60400181545981,-82.37738042,35.60400181545981,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+129118.jpg,129118.jpg,-82.37792711,35.60562787830101,-82.37792711,35.60562787830101,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+129169.jpg,129169.jpg,-82.39521446,35.602082542654145,-82.39521446,35.602082542654145,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+129924.jpg,129924.jpg,-82.31773491,35.625144927365334,-82.31773491,35.625144927365334,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+129924.jpg,129924.jpg,-82.31773491,35.625144927365334,-82.31773491,35.625144927365334,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+130661.jpg,130661.jpg,-82.39371085,35.60230494176786,-82.39371085,35.60230494176786,Not Occupied,Unknown,Not Occupied,Not Occupied,Not Occupied,Not Occupied,True,False,False
+130779.jpg,130779.jpg,-82.42798022,35.617493091970545,-82.42798022,35.617493091970545,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+131481.jpg,131481.jpg,-82.31655159,35.61897552,-82.31655159,35.61897552,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+131662.jpg,131662.jpg,-82.39899895,35.60080500328462,-82.39899895,35.60080500328462,Not Occupied,Unknown,Not Occupied,Occupied,Occupied,Occupied,True,True,False
+131997.jpg,131997.jpg,-82.39236416,35.60131477,-82.39236416,35.60131477,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+131997.jpg,131997.jpg,-82.39236416,35.60131477,-82.39236416,35.60131477,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+132355.jpg,132355.jpg,-82.40017045,35.601846948792485,-82.40017045,35.601846948792485,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+132355.jpg,132355.jpg,-82.40017045,35.601846948792485,-82.40017045,35.601846948792485,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+132400.jpg,132400.jpg,-82.39894016,35.59982680128878,-82.39894016,35.59982680128878,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+132744.jpg,132744.jpg,-82.39380894,35.60197897713631,-82.39380894,35.60197897713631,Not Occupied,Unknown,Not Occupied,Not Occupied,Not Occupied,Not Occupied,True,False,False
+133969.jpg,133969.jpg,-82.31720536,35.61930421671099,-82.31720536,35.61930421671099,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+134240.jpg,134240.jpg,-82.39562399,35.60207498934178,-82.39562399,35.60207498934178,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+135392.jpg,135392.jpg,-82.38627713,35.60384794498178,-82.38627713,35.60384794498178,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+135412.jpg,135412.jpg,-82.40563414,35.60381016064798,-82.40563414,35.60381016064798,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+136099.jpg,136099.jpg,-82.31541627,35.627273979386835,-82.31541627,35.627273979386835,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+136112.jpg,136112.jpg,-82.42372322,35.616467076965655,-82.42372322,35.616467076965655,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+136593.jpg,136593.jpg,-82.42861547,35.61987964183257,-82.42861547,35.61987964183257,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+137538.jpg,137538.jpg,-82.42866504,35.61697631146597,-82.42866504,35.61697631146597,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+137779.jpg,137779.jpg,-82.42908754,35.6179583,-82.42908754,35.6179583,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+138267.jpg,138267.jpg,-82.31677586,35.627020504856205,-82.31677586,35.627020504856205,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+140222.jpg,140222.jpg,-82.31809145,35.62519052873997,-82.31809145,35.62519052873997,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+140222.jpg,140222.jpg,-82.31809145,35.62519052873997,-82.31809145,35.62519052873997,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+140350.jpg,140350.jpg,-82.31687658,35.626711987989765,-82.31687658,35.626711987989765,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+140388.jpg,140388.jpg,-82.42829348,35.61768208353739,-82.42829348,35.61768208353739,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+140490.jpg,140490.jpg,-82.42918107,35.619434272206135,-82.42918107,35.619434272206135,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+140797.jpg,140797.jpg,-82.39059983,35.59970631932763,-82.39059983,35.59970631932763,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+140964.jpg,140964.jpg,-82.40090319,35.59954848234097,-82.40090319,35.59954848234097,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+141011.jpg,141011.jpg,-82.40182361,35.602162100489394,-82.40182361,35.602162100489394,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+141011.jpg,141011.jpg,-82.40182361,35.602162100489394,-82.40182361,35.602162100489394,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+141041.jpg,141041.jpg,-82.37800164,35.605890864133684,-82.37800164,35.605890864133684,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+141284.jpg,141284.jpg,-82.40568193,35.60177558500905,-82.40568193,35.60177558500905,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+141705.jpg,141705.jpg,-82.31680434,35.62781300744859,-82.31680434,35.62781300744859,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+143041.jpg,143041.jpg,-82.39459701,35.60270357286429,-82.39459701,35.60270357286429,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+143082.jpg,143082.jpg,-82.39316157,35.60122194683318,-82.39316157,35.60122194683318,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+143082.jpg,143082.jpg,-82.39316157,35.60122194683318,-82.39316157,35.60122194683318,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+143497.jpg,143497.jpg,-82.40014323,35.59858789573074,-82.40014323,35.59858789573074,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+143607.jpg,143607.jpg,-82.42967285,35.61766307907408,-82.42967285,35.61766307907408,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+143871.jpg,143871.jpg,-82.40036037,35.59917428287993,-82.40036037,35.59917428287993,Occupied,Not Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+143921.jpg,143921.jpg,-82.39884903,35.60132673639439,-82.39884903,35.60132673639439,Unknown,Unknown,Occupied,Not Occupied,Occupied,Not Occupied,False,True,True
+144047.jpg,144047.jpg,-82.42897166,35.62004923539678,-82.42897166,35.62004923539678,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+144183.jpg,144183.jpg,-82.40064583,35.59900259800309,-82.40064583,35.59900259800309,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+144311.jpg,144311.jpg,-82.4005498,35.59888691664049,-82.4005498,35.59888691664049,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+144824.jpg,144824.jpg,-82.38927576,35.60124386749171,-82.38927576,35.60124386749171,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+145250.jpg,145250.jpg,-82.42857531,35.618193377971984,-82.42857531,35.618193377971984,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+146318.jpg,146318.jpg,-82.39533969,35.601453982224115,-82.39533969,35.601453982224115,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+147294.jpg,147294.jpg,-82.4232153,35.615641361093914,-82.4232153,35.615641361093914,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+147475.jpg,147475.jpg,-82.39537572,35.601590664187604,-82.39537572,35.601590664187604,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+147689.jpg,147689.jpg,-82.39919247,35.599341769635465,-82.39919247,35.599341769635465,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+148067.jpg,148067.jpg,-82.31543559,35.62370847696406,-82.31543559,35.62370847696406,Unknown,Not Occupied,Occupied,Not Occupied,Not Occupied,Not Occupied,True,True,False
+148175.jpg,148175.jpg,-82.31715807,35.62753085,-82.31715807,35.62753085,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+149022.jpg,149022.jpg,-82.37870556,35.60654727158043,-82.37870556,35.60654727158043,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+149157.jpg,149157.jpg,-82.31594478,35.62427052417766,-82.31594478,35.62427052417766,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+149744.jpg,149744.jpg,-82.42320285,35.61805676272859,-82.42320285,35.61805676272859,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+149924.jpg,149924.jpg,-82.39421354,35.60210307898585,-82.39421354,35.60210307898585,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+150044.jpg,150044.jpg,-82.31624859,35.62475049749785,-82.31624859,35.62475049749785,Not Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+150399.jpg,150399.jpg,-82.40555499,35.60397558872464,-82.40555499,35.60397558872464,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+150906.jpg,150906.jpg,-82.3155751,35.62771157958793,-82.3155751,35.62771157958793,Occupied,Not Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+151086.jpg,151086.jpg,-82.39804196,35.60114459979064,-82.39804196,35.60114459979064,Not Occupied,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+151448.jpg,151448.jpg,-82.39972308,35.59784177989071,-82.39972308,35.59784177989071,Not Occupied,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+151982.jpg,151982.jpg,-82.42819106,35.61676362048101,-82.42819106,35.61676362048101,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+152265.jpg,152265.jpg,-82.42832861,35.61728344542269,-82.42832861,35.61728344542269,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+152545.jpg,152545.jpg,-82.37770613,35.60487871475062,-82.37770613,35.60487871475062,Occupied,Unknown,Occupied,Not Occupied,Occupied,Not Occupied,True,True,True
+152820.jpg,152820.jpg,-82.38906901,35.60408607143451,-82.38906901,35.60408607143451,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Occupied,False,False,True
+152935.jpg,152935.jpg,-82.39418237,35.60121488070954,-82.39418237,35.60121488070954,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+152935.jpg,152935.jpg,-82.39418237,35.60121488070954,-82.39418237,35.60121488070954,Unknown,Unknown,Not Occupied,Occupied,Occupied,Occupied,False,True,False
+154676.jpg,154676.jpg,-82.38541015,35.59931527295129,-82.38541015,35.59931527295129,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+155058.jpg,155058.jpg,-82.39115877,35.602787186826646,-82.39115877,35.602787186826646,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+155361.jpg,155361.jpg,-82.31587875,35.62467615370197,-82.31587875,35.62467615370197,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+155498.jpg,155498.jpg,-82.38730228,35.60396023906129,-82.38730228,35.60396023906129,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+156897.jpg,156897.jpg,-82.38529136,35.59937727483666,-82.38529136,35.59937727483666,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+157084.jpg,157084.jpg,-82.37751823,35.60333945551519,-82.37751823,35.60333945551519,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+157497.jpg,157497.jpg,-82.37813468,35.60622082513455,-82.37813468,35.60622082513455,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+157655.jpg,157655.jpg,-82.39183369,35.60291117810819,-82.39183369,35.60291117810819,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+158499.jpg,158499.jpg,-82.42916713,35.617502726081185,-82.42916713,35.617502726081185,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+158619.jpg,158619.jpg,-82.39992052,35.60018757709346,-82.39992052,35.60018757709346,Not Occupied,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+158770.jpg,158770.jpg,-82.37782346,35.60527191313985,-82.37782346,35.60527191313985,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+158800.jpg,158800.jpg,-82.39355362,35.60120561242417,-82.39355362,35.60120561242417,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+158800.jpg,158800.jpg,-82.39355362,35.60120561242417,-82.39355362,35.60120561242417,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+159002.jpg,159002.jpg,-82.42739797,35.61680208387421,-82.42739797,35.61680208387421,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+159528.jpg,159528.jpg,-82.39141141,35.60282316759563,-82.39141141,35.60282316759563,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+160278.jpg,160278.jpg,-82.31685896,35.62947542507822,-82.31685896,35.62947542507822,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+160411.jpg,160411.jpg,-82.42905487,35.61692517282217,-82.42905487,35.61692517282217,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+160420.jpg,160420.jpg,-82.42329548,35.61504678805264,-82.42329548,35.61504678805264,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+160502.jpg,160502.jpg,-82.42726641,35.616615203653694,-82.42726641,35.616615203653694,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+160713.jpg,160713.jpg,-82.42372685,35.618671557666296,-82.42372685,35.618671557666296,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+160742.jpg,160742.jpg,-82.39421527,35.60253205228996,-82.39421527,35.60253205228996,Occupied,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+161948.jpg,161948.jpg,-82.39232434,35.60089496656171,-82.39232434,35.60089496656171,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+161948.jpg,161948.jpg,-82.39232434,35.60089496656171,-82.39232434,35.60089496656171,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+162005.jpg,162005.jpg,-82.37776033,35.60403018194462,-82.37776033,35.60403018194462,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+162222.jpg,162222.jpg,-82.37731596,35.60379963421267,-82.37731596,35.60379963421267,Not Occupied,Not Occupied,Occupied,Not Occupied,Not Occupied,Not Occupied,False,True,False
+162566.jpg,162566.jpg,-82.39494609,35.60160756166111,-82.39494609,35.60160756166111,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+162957.jpg,162957.jpg,-82.31472067,35.62654033558374,-82.31472067,35.62654033558374,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+163649.jpg,163649.jpg,-82.3943842,35.601223673683045,-82.3943842,35.601223673683045,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+163649.jpg,163649.jpg,-82.3943842,35.601223673683045,-82.3943842,35.601223673683045,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+163888.jpg,163888.jpg,-82.39136355,35.60248843673317,-82.39136355,35.60248843673317,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+163928.jpg,163928.jpg,-82.31886217,35.626852424565264,-82.31886217,35.626852424565264,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+164129.jpg,164129.jpg,-82.37797039,35.60466308362222,-82.37797039,35.60466308362222,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+164401.jpg,164401.jpg,-82.39259022,35.603076082481564,-82.39259022,35.603076082481564,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+164446.jpg,164446.jpg,-82.40012819,35.60012956950104,-82.40012819,35.60012956950104,Not Occupied,Not Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+165018.jpg,165018.jpg,-82.3178473,35.62449336662513,-82.3178473,35.62449336662513,Not Occupied,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,False,True,True
+165018.jpg,165018.jpg,-82.3178473,35.62449336662513,-82.3178473,35.62449336662513,Not Occupied,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,False,True,True
+165071.jpg,165071.jpg,-82.38576256,35.60408168191817,-82.38576256,35.60408168191817,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+165531.jpg,165531.jpg,-82.40223473,35.60220414868392,-82.40223473,35.60220414868392,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+165531.jpg,165531.jpg,-82.40223473,35.60220414868392,-82.40223473,35.60220414868392,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+165931.jpg,165931.jpg,-82.4235131,35.61373063,-82.4235131,35.61373063,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+166048.jpg,166048.jpg,-82.38700988,35.604246018716175,-82.38700988,35.604246018716175,Occupied,Not Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+166169.jpg,166169.jpg,-82.39931291,35.59924248406853,-82.39931291,35.59924248406853,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+166584.jpg,166584.jpg,-82.31687677,35.62919528535468,-82.31687677,35.62919528535468,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+166671.jpg,166671.jpg,-82.31576005,35.62709081927872,-82.31576005,35.62709081927872,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+166753.jpg,166753.jpg,-82.40594632,35.601779404071614,-82.40594632,35.601779404071614,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+167154.jpg,167154.jpg,-82.3169818,35.618886431700766,-82.3169818,35.618886431700766,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+167852.jpg,167852.jpg,-82.38742228,35.60430305156375,-82.38742228,35.60430305156375,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+168152.jpg,168152.jpg,-82.3966477,35.59921378167427,-82.3966477,35.59921378167427,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+168492.jpg,168492.jpg,-82.31736066,35.62672337289218,-82.31736066,35.62672337289218,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+168595.jpg,168595.jpg,-82.39522671,35.60264465745638,-82.39522671,35.60264465745638,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+168595.jpg,168595.jpg,-82.39522671,35.60264465745638,-82.39522671,35.60264465745638,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+168977.jpg,168977.jpg,-82.40036982,35.60042997214697,-82.40036982,35.60042997214697,Unknown,Occupied,Occupied,Not Occupied,Occupied,Occupied,True,True,False
+169073.jpg,169073.jpg,-82.39375275,35.60120944811236,-82.39375275,35.60120944811236,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+169073.jpg,169073.jpg,-82.39375275,35.60120944811236,-82.39375275,35.60120944811236,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+169394.jpg,169394.jpg,-82.37789797,35.60549603948766,-82.37789797,35.60549603948766,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+169604.jpg,169604.jpg,-82.42322114,35.61600439073398,-82.42322114,35.61600439073398,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+169720.jpg,169720.jpg,-82.31795665,35.62490205202293,-82.31795665,35.62490205202293,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+169720.jpg,169720.jpg,-82.31795665,35.62490205202293,-82.31795665,35.62490205202293,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+169865.jpg,169865.jpg,-82.42373961,35.617312745767755,-82.42373961,35.617312745767755,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+169908.jpg,169908.jpg,-82.38916893,35.59978748708472,-82.38916893,35.59978748708472,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+169940.jpg,169940.jpg,-82.39027206,35.60124343262776,-82.39027206,35.60124343262776,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+171148.jpg,171148.jpg,-82.39064621,35.6004676,-82.39064621,35.6004676,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+171521.jpg,171521.jpg,-82.42904232,35.61757955458372,-82.42904232,35.61757955458372,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+171600.jpg,171600.jpg,-82.31881686,35.627336378945394,-82.31881686,35.627336378945394,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+171693.jpg,171693.jpg,-82.31724295,35.62704434416805,-82.31724295,35.62704434416805,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+171973.jpg,171973.jpg,-82.31468737,35.62640142236381,-82.31468737,35.62640142236381,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+172372.jpg,172372.jpg,-82.39123613,35.60247970682853,-82.39123613,35.60247970682853,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+173341.jpg,173341.jpg,-82.4073472,35.60339511359747,-82.4073472,35.60339511359747,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,Not Occupied,False,False,False
+173772.jpg,173772.jpg,-82.42819099,35.61713820968239,-82.42819099,35.61713820968239,Occupied,Unknown,Occupied,Not Occupied,Occupied,Not Occupied,True,True,True
+174001.jpg,174001.jpg,-82.3912744,35.60111397784787,-82.3912744,35.60111397784787,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+174001.jpg,174001.jpg,-82.3912744,35.60111397784787,-82.3912744,35.60111397784787,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+174299.jpg,174299.jpg,-82.40590935,35.60438081043077,-82.40590935,35.60438081043077,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+175251.jpg,175251.jpg,-82.31681469,35.62852456754059,-82.31681469,35.62852456754059,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+175679.jpg,175679.jpg,-82.31745956,35.62429273027258,-82.31745956,35.62429273027258,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+176321.jpg,176321.jpg,-82.39995993,35.59905367431428,-82.39995993,35.59905367431428,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+176345.jpg,176345.jpg,-82.31705281,35.62642158059647,-82.31705281,35.62642158059647,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+176547.jpg,176547.jpg,-82.39298867,35.602348164474385,-82.39298867,35.602348164474385,Not Occupied,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+176568.jpg,176568.jpg,-82.39178179,35.60290289393676,-82.39178179,35.60290289393676,Unknown,Unknown,Occupied,Occupied,Occupied,Occupied,False,False,False
+176898.jpg,176898.jpg,-82.39188476,35.60291861382504,-82.39188476,35.60291861382504,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+177155.jpg,177155.jpg,-82.38941849,35.600765253976505,-82.38941849,35.600765253976505,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+177883.jpg,177883.jpg,-82.3876757,35.60393844935566,-82.3876757,35.60393844935566,Unknown,Not Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+177888.jpg,177888.jpg,-82.39955607,35.60102507740134,-82.39955607,35.60102507740134,Occupied,Unknown,Occupied,Occupied,Occupied,Not Occupied,True,False,True
+179369.jpg,179369.jpg,-82.39966739,35.597936748061414,-82.39966739,35.597936748061414,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+179387.jpg,179387.jpg,-82.39074333,35.60073229365518,-82.39074333,35.60073229365518,Occupied,Occupied,Occupied,Not Occupied,Occupied,Occupied,False,True,False
+179524.jpg,179524.jpg,-82.3919349,35.600999792544215,-82.3919349,35.600999792544215,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+179524.jpg,179524.jpg,-82.3919349,35.600999792544215,-82.3919349,35.600999792544215,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+179574.jpg,179574.jpg,-82.40023831,35.59923493658801,-82.40023831,35.59923493658801,Unknown,Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+180345.jpg,180345.jpg,-82.39726522,35.60033486789225,-82.39726522,35.60033486789225,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+180354.jpg,180354.jpg,-82.40599733,35.60386046,-82.40599733,35.60386046,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+180445.jpg,180445.jpg,-82.31522423,35.626418078279634,-82.31522423,35.626418078279634,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+181154.jpg,181154.jpg,-82.39439244,35.60263363679428,-82.39439244,35.60263363679428,Not Occupied,Occupied,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+181699.jpg,181699.jpg,-82.39542567,35.60256065377419,-82.39542567,35.60256065377419,Not Occupied,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+181699.jpg,181699.jpg,-82.39542567,35.60256065377419,-82.39542567,35.60256065377419,Not Occupied,Unknown,Not Occupied,Occupied,Not Occupied,Occupied,True,True,True
+182026.jpg,182026.jpg,-82.31806637,35.62580885846715,-82.31806637,35.62580885846715,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+182113.jpg,182113.jpg,-82.41275367,35.60042829224195,-82.41275367,35.60042829224195,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+182570.jpg,182570.jpg,-82.38963958,35.60151608421054,-82.38963958,35.60151608421054,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+183335.jpg,183335.jpg,-82.31549874,35.62372595,-82.31549874,35.62372595,Occupied,Not Occupied,Occupied,Occupied,Occupied,Occupied,True,False,False
+183433.jpg,183433.jpg,-82.31775903,35.62545935365055,-82.31775903,35.62545935365055,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+183433.jpg,183433.jpg,-82.31775903,35.62545935365055,-82.31775903,35.62545935365055,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+183651.jpg,183651.jpg,-82.3177167,35.62989885085245,-82.3177167,35.62989885085245,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False
+183731.jpg,183731.jpg,-82.40537777,35.59938858,-82.40537777,35.59938858,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+183731.jpg,183731.jpg,-82.40537777,35.59938858,-82.40537777,35.59938858,Occupied,Unknown,Occupied,Occupied,Occupied,Occupied,True,False,False
+184652.jpg,184652.jpg,-82.41100801,35.59897541667773,-82.41100801,35.59897541667773,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,False,False,False

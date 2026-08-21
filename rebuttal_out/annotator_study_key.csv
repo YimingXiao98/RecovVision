@@ -1,0 +1,101 @@
+sample_id,objectid,visit,ground_truth
+1,101273.jpg,1,Occupied
+2,125571.jpg,1,Occupied
+3,160713.jpg,2,Occupied
+4,408.jpg,2,Occupied
+5,5069.jpg,1,Occupied
+6,89134.jpg,1,Not Occupied
+7,181478.jpg,2,Occupied
+8,90719.jpg,2,Not Occupied
+9,18610.jpg,2,Occupied
+10,6225.jpg,1,Not Occupied
+11,72854.jpg,1,Not Occupied
+12,93297.jpg,1,Occupied
+13,19376.jpg,2,Not Occupied
+14,151448.jpg,1,Not Occupied
+15,25643.jpg,2,Occupied
+16,18111.jpg,1,Occupied
+17,69070.jpg,1,Not Occupied
+18,16509.jpg,2,Not Occupied
+19,10643.jpg,1,Not Occupied
+20,120853.jpg,1,Not Occupied
+21,6225.jpg,2,Not Occupied
+22,42639.jpg,1,Not Occupied
+23,150044.jpg,1,Not Occupied
+24,171693.jpg,2,Occupied
+25,55719.jpg,1,Not Occupied
+26,32932.jpg,2,Occupied
+27,86538.jpg,2,Not Occupied
+28,180445.jpg,1,Occupied
+29,152820.jpg,2,Not Occupied
+30,84037.jpg,2,Occupied
+31,78944.jpg,2,Not Occupied
+32,102102.jpg,2,Not Occupied
+33,173772.jpg,1,Occupied
+34,115074.jpg,2,Not Occupied
+35,182113.jpg,1,Occupied
+36,179524.jpg,1,Occupied
+37,59535.jpg,1,Occupied
+38,124769.jpg,1,Not Occupied
+39,58037.jpg,1,Occupied
+40,70932.jpg,2,Not Occupied
+41,41410.jpg,2,Not Occupied
+42,129169.jpg,2,Occupied
+43,33126.jpg,2,Not Occupied
+44,69766.jpg,2,Not Occupied
+45,79279.jpg,1,Occupied
+46,96869.jpg,1,Not Occupied
+47,14859.jpg,2,Occupied
+48,2798.jpg,2,Occupied
+49,166116.jpg,1,Occupied
+50,96035.jpg,2,Occupied
+51,28406.jpg,1,Occupied
+52,13311.jpg,1,Occupied
+53,164446.jpg,1,Not Occupied
+54,34926.jpg,2,Occupied
+55,857.jpg,1,Not Occupied
+56,62597.jpg,2,Occupied
+57,5069.jpg,2,Occupied
+58,157655.jpg,2,Occupied
+59,66673.jpg,1,Not Occupied
+60,122593.jpg,1,Occupied
+61,157084.jpg,2,Occupied
+62,19482.jpg,1,Not Occupied
+63,17765.jpg,1,Occupied
+64,32932.jpg,1,Not Occupied
+65,129924.jpg,1,Occupied
+66,67545.jpg,2,Occupied
+67,120865.jpg,1,Occupied
+68,130661.jpg,2,Not Occupied
+69,178228.jpg,2,Not Occupied
+70,225.jpg,2,Not Occupied
+71,26421.jpg,2,Occupied
+72,72844.jpg,1,Not Occupied
+73,153540.jpg,2,Not Occupied
+74,47001.jpg,2,Not Occupied
+75,23149.jpg,2,Not Occupied
+76,59495.jpg,2,Occupied
+77,164446.jpg,2,Not Occupied
+78,83270.jpg,1,Not Occupied
+79,14986.jpg,1,Not Occupied
+80,104338.jpg,2,Not Occupied
+81,101457.jpg,2,Occupied
+82,61514.jpg,1,Not Occupied
+83,123663.jpg,1,Occupied
+84,112266.jpg,1,Not Occupied
+85,45070.jpg,1,Occupied
+86,131945.jpg,2,Occupied
+87,55335.jpg,1,Occupied
+88,5518.jpg,1,Not Occupied
+89,176345.jpg,1,Occupied
+90,87873.jpg,2,Not Occupied
+91,50524.jpg,2,Occupied
+92,152820.jpg,1,Not Occupied
+93,121465.jpg,2,Not Occupied
+94,141041.jpg,2,Occupied
+95,91448.jpg,1,Not Occupied
+96,79283.jpg,2,Occupied
+97,7799.jpg,2,Not Occupied
+98,133969.jpg,1,Occupied
+99,84119.jpg,2,Not Occupied
+100,3374.jpg,1,Occupied

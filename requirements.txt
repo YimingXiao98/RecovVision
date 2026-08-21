@@ -1,0 +1,12 @@
+# Python 3.9+ (the pipeline uses `from __future__ import annotations`)
+pandas
+numpy
+scikit-learn
+matplotlib
+openai>=1.0
+# geometry pipeline (vrtoolkit: spatial matching / rectification)
+geopandas
+shapely
+pyproj
+rtree
+Pillow

@@ -1,0 +1,4 @@
+ObjectId,Center_Longitude,Center_Latitude,vehicle_x,vehicle_y,matched_file,frame_number
+1,-78.9001,35.9101,-78.9002,35.9102,GH010001,120
+2,-78.9005,35.9105,-78.9006,35.9106,GH010002,240
+3,-78.9010,35.9110,-78.9011,35.9111,GH010003,360

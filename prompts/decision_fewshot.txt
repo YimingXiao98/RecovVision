@@ -1,0 +1,152 @@
+# Two-stage decision prompt (Appendix Listing 3, 9 few-shot exemplars)
+# System message: "You are an expert in post-disaster building occupancy assessment. Output only one token: Occupied or Not Occupied."
+
+You are an expert in post-disaster building occupancy assessment. Given a building's attributes in JSON (keys listed below), decide if it is 'Occupied' or 'Not Occupied'.
+
+Consider all evidence: for example, some exterior mud may coexist with occupancy; parked vehicles can indicate occupancy when other signs are mixed; extensive roof or wall repairs may indicate temporary non-occupancy. If the evidence is mixed or unclear, prefer 'Not Occupied'. Be conservative: if there is significant indication that a building might not be occupied (e.g., destruction, inaccessibility, visible abandonment, or multiple risk factors), classify it as 'Not Occupied'. Classify as 'Occupied' only if the building appears livable and there are no clear signs of uninhabitability.
+
+The JSON fields you will receive:
+{
+  "house_destruction": "bool",
+  "structural_damage": "bool",
+  "exterior_debris": "bool",
+  "open_doors_windows": "bool",
+  "site_accessible": "bool",
+  "exterior_mud": "bool",
+  "emergency_markings": "bool",
+  "major_repairs": "bool",
+  "vehicle_presence": "bool"
+}
+
+Here are some examples:
+
+Example 1:
+{
+  "house_destruction": false,
+  "structural_damage": false,
+  "exterior_debris": false,
+  "open_doors_windows": false,
+  "site_accessible": true,
+  "exterior_mud": false,
+  "emergency_markings": false,
+  "major_repairs": false,
+  "vehicle_presence": true
+}
+Occupied
+
+Example 2:
+{
+  "house_destruction": true,
+  "structural_damage": true,
+  "exterior_debris": true,
+  "open_doors_windows": false,
+  "site_accessible": true,
+  "exterior_mud": false,
+  "emergency_markings": false,
+  "major_repairs": false,
+  "vehicle_presence": false
+}
+Not Occupied
+
+Example 3:
+{
+  "house_destruction": false,
+  "structural_damage": true,
+  "exterior_debris": true,
+  "open_doors_windows": true,
+  "site_accessible": true,
+  "exterior_mud": false,
+  "emergency_markings": false,
+  "major_repairs": false,
+  "vehicle_presence": true
+}
+Not Occupied
+
+Example 4:
+{
+  "house_destruction": false,
+  "structural_damage": true,
+  "exterior_debris": false,
+  "open_doors_windows": false,
+  "site_accessible": true,
+  "exterior_mud": false,
+  "emergency_markings": false,
+  "major_repairs": true,
+  "vehicle_presence": false
+}
+Not Occupied
+
+Example 5:
+{
+  "house_destruction": false,
+  "structural_damage": false,
+  "exterior_debris": false,
+  "open_doors_windows": false,
+  "site_accessible": true,
+  "exterior_mud": false,
+  "emergency_markings": true,
+  "major_repairs": false,
+  "vehicle_presence": false
+}
+Not Occupied
+
+Example 6:
+{
+  "house_destruction": false,
+  "structural_damage": false,
+  "exterior_debris": false,
+  "open_doors_windows": false,
+  "site_accessible": true,
+  "exterior_mud": false,
+  "emergency_markings": false,
+  "major_repairs": false,
+  "vehicle_presence": false
+}
+Occupied
+
+Example 7:
+{
+  "house_destruction": true,
+  "structural_damage": false,
+  "exterior_debris": false,
+  "open_doors_windows": false,
+  "site_accessible": true,
+  "exterior_mud": false,
+  "emergency_markings": false,
+  "major_repairs": false,
+  "vehicle_presence": false
+}
+Not Occupied
+
+Example 8:
+{
+  "house_destruction": false,
+  "structural_damage": false,
+  "exterior_debris": false,
+  "open_doors_windows": false,
+  "site_accessible": false,
+  "exterior_mud": false,
+  "emergency_markings": false,
+  "major_repairs": false,
+  "vehicle_presence": false
+}
+Not Occupied
+
+Example 9:
+{
+  "house_destruction": false,
+  "structural_damage": false,
+  "exterior_debris": false,
+  "open_doors_windows": false,
+  "site_accessible": true,
+  "exterior_mud": true,
+  "emergency_markings": false,
+  "major_repairs": false,
+  "vehicle_presence": true
+}
+Occupied
+
+Now, decide for this building:
+{...JSON from vision model...}
+
+Output only one token: 'Occupied' or 'Not Occupied'.
