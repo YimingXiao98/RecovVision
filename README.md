@@ -1,20 +1,12 @@
-# Recov-Vision — reproducibility release
+# Recov-Vision
 
-Code and per-parcel data to reproduce the results in *Recov-Vision: Linking
-Street View Imagery and Vision-Language Models for Post-Disaster Recovery*,
-accepted at the *International Journal of Disaster Risk Reduction (IJDRR)*.
+Code and per-parcel data to reproduce the results in *Recov-Vision: Linking Street View Imagery and Vision-Language Models for Post-Disaster Recovery*, accepted at the *International Journal of Disaster Risk Reduction (IJDRR)*.
 
-The pipeline links panoramic street-view video to parcels, rectifies each view
-to a facade, extracts nine boolean attributes with a vision-language model, and
-maps those attributes to an occupancy label with either a transparent one-stage
-count rule or a two-stage text-only decision. This release lets you reproduce
-the open-weight model comparison, the prompt-sensitivity analysis, the
-inter-annotator reliability check, and the paper's figures — most of them
-**offline**, from the included per-parcel outputs.
+The pipeline links panoramic street-view video to parcels, rectifies each view to a facade, extracts nine boolean attributes with a vision-language model, and maps those attributes to an occupancy label with either a transparent one-stage count rule or a two-stage text-only decision. This release lets you reproduce the open-weight model comparison, the prompt-sensitivity analysis, the inter-annotator reliability check, and the paper's figures from the included per-parcel outputs.
 
 ---
 
-## What's included
+## Repo Layout
 
 ```
 run_openrouter_baseline.py   Open-weight reproduction of the full pipeline      -> Table 9
@@ -35,12 +27,12 @@ data/FacadeTrack/            Where to place the (separately released) blurred im
 samples/                     Tiny sample CSVs to smoke-test the pipeline
 ```
 
-No API keys are committed. The imagery is released separately on HuggingFace
+No API keys are committed. The imagery is released separately on Hugging Face
 (`Ymx1025/FacadeTrack`); see `data/FacadeTrack/README.md`.
 
 ---
 
-## Install
+## Installation
 
 ```bash
 python -m venv .venv && . .venv/bin/activate      # Python 3.9+
@@ -50,16 +42,13 @@ pip install -r requirements.txt
 cp .env.example .env         # then edit; or export the vars in your shell
 ```
 
-Keys (only needed to *re-run* the models; the analyses below run offline from
-the bundled CSVs):
+Keys (only needed to *re-run* the models; the analyses below run offline from the bundled CSVs):
 - `OPENROUTER_API_KEY` — open-weight runs (`run_openrouter_baseline.py`, `prompt_sensitivity.py`)
 - `OPENAI_API_KEY` — original GPT-4o pipeline (`vrtoolkit` VLM step)
 
 ---
 
-## Reproduce the paper — offline (from included per-parcel CSVs)
-
-These need **no API key and no imagery**:
+## Reproducing the paper
 
 ```bash
 # Table 9 — open-weight backends, one-stage vs two-stage, both visits pooled
@@ -84,7 +73,7 @@ cd ..
 
 (Figure 7, `make_tp_fp_examples.py`, needs the facade images — see below.)
 
-## Reproduce from scratch — re-run the models (needs API + imagery)
+## Reproducing from scratch: re-run the models (needs API + imagery)
 
 ```bash
 # download the blurred imagery first (see data/FacadeTrack/README.md), then:
@@ -124,45 +113,36 @@ python -m cli vlm samples/csv/sample_matches_orientation.csv samples/images/fram
   indicators (the 7 damage/condition cues plus `site_accessible == False`) and
   `v = 1` if a vehicle is present (Table 1 / Eq. 3).
 
-The open-weight backends and the `vrtoolkit` GPT-4o path both use this canonical
-snake_case schema, so the comparison is prompt-matched. The **original** GPT-4o
-run phrased each attribute as a natural-language question and excluded the survey
-vehicle in its vehicle attribute; that single wording difference is documented in
-Section 4.3 and quantified in Figure 12 (`vehicle_presence`).
+The open-weight backends and the `vrtoolkit` GPT-4o path both use this canonical snake_case schema, so the comparison is prompt-matched. The **original** GPT-4o run phrased each attribute as a natural-language question and excluded the survey vehicle in its vehicle attribute; that single wording difference is documented in Section 4.3 and quantified in Figure 12 (`vehicle_presence`).
 
 ---
 
 ## Notes
 
-- **API drift & determinism.** All runs use temperature 0. Re-running the GPT-4o
-  baseline against a current snapshot reproduces ~93% of the original stored
-  labels; this API drift is exactly why the open-weight results are the
-  reproducible reference. temp-0.6 reasoning runs use seeds (best-effort across
-  providers) and are reported with across-seed variability.
-- **Fonts.** The figure scripts request the Arimo font (an Arial-metric clone)
-  for consistency; if it isn't installed, matplotlib falls back automatically —
+- **API drift & determinism.** All runs use temperature 0. Re-running the GPT-4o baseline against a current snapshot reproduces ~93% of the original stored labels; this API drift is exactly why the open-weight results are the reproducible reference. temp-0.6 reasoning runs use seeds (best-effort across providers) and are reported with across-seed variability.
+- **Fonts.** The figure scripts request the Arimo font (an Arial-metric clone) for consistency; if it isn't installed, matplotlib falls back automatically —
   cosmetic only.
-- **`rebuttal_out/` also contains** extra runs not in the main tables (Gemma,
-  Kimi, and the temp-0.6 reasoning seeds `*-think-s{1,2,3}`); the `--aggregate
+- **`rebuttal_out/` also contains** extra runs not in the main tables (Gemma, Kimi, and the temp-0.6 reasoning seeds `*-think-s{1,2,3}`); the `--aggregate
   PREFIX` flag of `run_openrouter_baseline.py` averages the seed runs.
 
 ## Security
 
-Set keys via environment variables or a local `.env` (git-ignored). Do not commit
-keys. If a key was ever exposed, rotate it at the provider console.
+Set keys via environment variables or a local `.env` (git-ignored). Do not commit keys. If a key was ever exposed, rotate it at the provider console.
 
 ## Citation
 
 If you use this code or data, please cite:
 
 ```bibtex
-@misc{xiao2026recovvisionlinkingstreetview,
-      title={Recov-Vision: Linking Street View Imagery and Vision-Language Models for Post-Disaster Recovery},
-      author={Yiming Xiao and Archit Gupta and Miguel Esparza and Yu-Hsuan Ho and Antonia Sebastian and Hannah Weas and Rose Houck and Ali Mostafavi},
-      year={2026},
-      eprint={2509.20628},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2509.20628},
+@article{XIAO2026106388,
+title = {Recov-Vision: Linking street view imagery and vision-language models for post-disaster recovery},
+journal = {International Journal of Disaster Risk Reduction},
+volume = {144},
+pages = {106388},
+year = {2026},
+issn = {2212-4209},
+doi = {https://doi.org/10.1016/j.ijdrr.2026.106388},
+url = {https://www.sciencedirect.com/science/article/pii/S2212420926004000},
+author = {Yiming Xiao and Archit Gupta and Miguel Esparza and Yu-Hsuan Ho and Antonia Sebastian and Hannah Weas and Rose Houck and Ali Mostafavi}
 }
 ```
